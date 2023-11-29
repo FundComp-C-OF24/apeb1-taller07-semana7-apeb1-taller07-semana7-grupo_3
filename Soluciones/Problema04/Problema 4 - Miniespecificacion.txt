@@ -9,7 +9,7 @@ Problema 4
 	     a) Escribir "Adivina el numero"
              b) Leer numIngresado
 	     c) Si (numIngresado = numAdv) entonces
-	                     a) "Felicidades Adivinaste el Numero en ",intentos," intentos”
+	                     a) "Felicidades Adivinaste el Numero en ",intentos," intentos"
 	                     b)  intentos = 0
 	     d) De lo contrario
 	                     a) Si (numIngresado > numAdv)
