@@ -1,0 +1,28 @@
+Problema 3
+
+1.	Inicio
+2.	Definir rango, cont
+             a) agregarV, gd, gT, gP, como Real
+             b) rango , cont, como Entero
+             c) nomdia como Cadena
+3.	Escribir "Ingrese el Numero de dias"
+4.	Leer rango
+5.	cont = 1
+6.	Mientras (cont ≤ rango) hacer
+             a) Escribir "Ingrese el Nombre del día"
+             b) Leer nomdia
+             c) Escribir "Ingrese las ganancias de este día"
+             d) Leer gd
+             e) Si (nomdia = "Lunes" o nomdia = "Viernes" o nomdia = "Domingo") entonces
+	                   a) agregarV =  gd*15.3/100
+             f) De lo contrario	                   
+                           a) agregarV = 0
+             g) Fin Si
+             h) gd = gd + agregarV
+	     i) gT = gT + gd
+	     j) cont = cont + 1
+7.	Fin Mientras
+8.	gP = gT / rango
+9.	Escribir "Ganacias de dias en Total: ",gT
+10.	Escribir "Promedio de Ganancias: ",gP
+11.	Fin

@@ -1,0 +1,12 @@
+Problema 1
+
+1.	Inicio
+2.	Definir 
+             a)	n como Entero
+3.	n = 1
+4.	Mientras (n ≤ 7) hacer
+             a)	Escribir   n,"    ",(n*10),"    ",(n*100),"    ",(n*1000)
+             b)	n = n + 1
+5.	Fin Mientras 
+6.	Fin
+
