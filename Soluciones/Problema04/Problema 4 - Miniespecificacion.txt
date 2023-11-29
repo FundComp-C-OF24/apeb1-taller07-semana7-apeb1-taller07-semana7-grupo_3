@@ -1,0 +1,28 @@
+Problema 4
+
+1.	Inicio
+2.	Definir 
+             a) numAdv, intentos, numIngresado como Entero
+3.      numAdv = Aleatorio (1,100)
+4.	intentos = 10
+5.	Mientras (intentos ≥ 1) hacer
+	     a) Escribir "Adivina el numero"
+             b) Leer numIngresado
+	     c) Si (numIngresado = numAdv) entonces
+	                     a) "Felicidades Adivinaste el Numero en ",intentos," intentos”
+	                     b)  intentos = 0
+	     d) De lo contrario
+	                     a) Si (numIngresado > numAdv)
+	                                 a) Escribir "Intenta con un número menor"
+	                                 b) intentos = intentos – 1
+	                                 c) Escribir "Te quedan ",intentos," intentos"
+	                     b) De lo contrario
+	                                 a) Escribir "Intenta con número mayor"
+	                                 b) intentos = intentos – 1
+	                                 c) Escribir "Te quedan ",intentos," intentos"
+	     e)Fin Si
+6.      Fin Mientras
+7.      Si  (numIngresado <> numAdv)
+             a) Escribir "GAME OVER"
+8.      Fin Si
+9.	Fin

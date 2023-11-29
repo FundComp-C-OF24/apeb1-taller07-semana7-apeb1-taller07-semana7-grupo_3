@@ -1,0 +1,11 @@
+Problema 2
+
+1.	Inicio
+2.	Definir 
+             a)	N 
+3.	n = 12
+4.	Mientras (n ≤ 30) hacer
+             a) Escribir   n,"    ",(n+1),"    ",(n+2),"    ",(n+3)
+             b) n = n +2
+5.	Fin Mientras
+6.	Fin

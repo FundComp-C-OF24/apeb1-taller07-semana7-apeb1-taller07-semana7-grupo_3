@@ -1,0 +1,27 @@
+Problema 5
+
+1.	Inicio
+2.	Definir 
+             a) n, cont como Entero
+             b) p como Logico
+3.	Escribir "Ingresar Numero"
+4.	Leer n
+5.	cont = 2
+6.	p = verdadero
+7.	Mientras (cont < n) hacer
+	     a) Si (n MOD cont = 0) entonces
+	                    a) cont = n
+	                    b) p = Falso
+	     b) Fin Si
+	     c) cont = cont + 1
+8.	Fin Mientras
+9.	Si (n=1) entonces
+	     a) Escribir "El Numero no es Primo"
+10.	De lo Contrario
+	     a) Si (p= verdadero) entonces
+	                  a) Escribir "El Numero es Primo"
+	     b) De lo Contrario
+	                  b) Escribir "El Numero no es Primo"
+	     c) Fin Si
+11.	Fin Si
+12.	Fin
